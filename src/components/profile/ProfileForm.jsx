@@ -69,6 +69,7 @@ const ProfileForm = ({
 }) => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
+      <h3>Profile Manager</h3>
       {/* Full Name input field */}
       <FormGroup>
         <Label>Full Name</Label>
