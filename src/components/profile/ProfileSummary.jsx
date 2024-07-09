@@ -9,6 +9,16 @@ const SummaryContainer = styled.div`
   border-radius: 0.8rem;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    width:100%;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.7rem;
+    width:100%;
+  }
 `;
 
 // Component to display a summary of a user's profile
