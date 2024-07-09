@@ -13,6 +13,8 @@ const Container = styled.div`
 
   @media (max-width: 768px) {
     padding: 1rem;
+    font-size: 0.8rem;
+    width: 80%;
   }
 
   @media (max-width: 480px) {
@@ -25,6 +27,15 @@ const WelcomeMessage = styled.h1`
   color: #007bff;
   text-align: center;
   margin-bottom: 20px;
+   @media (max-width: 768px) {
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 80%;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.7rem;
+  }
 `;
 
 const HomePage = () => {
